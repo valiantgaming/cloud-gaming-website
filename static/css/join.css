@@ -1,0 +1,546 @@
+.topbar {
+  margin-top: 20px;
+  height: 60px;
+  border-bottom: .5px solid lightgrey;
+  width: 100%;
+}
+
+.topbar-noborder {
+  margin-top: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+.logo-topbar {
+  display: inline-block;
+  margin-left: 3%;
+  max-width: 200px;
+}
+
+.signin {
+  display: inline-block;
+  margin-right: 3%;
+  margin-top: 10px;
+  float: right;
+  vertical-align: middle;
+  color: black;
+  font-size: 1.8em;
+}
+
+.signin:hover {
+  text-decoration: underline;
+}
+
+.join-block {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 130px;
+  margin-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.step {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.square-logo {
+  margin: 0 auto;
+  max-width: 50px;
+  margin-bottom: 20px;
+}
+
+.choose-plan {
+  font-size: 2.2em;
+}
+
+.checkedList {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.checkedList {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bullet {
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+.checkedList .bullet, .uncheckedList .bullet {
+  position: relative;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ul>li {
+  margin-left: 1.1em;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
+.checkedList .bullet {
+  padding: 0 0 1em 2em;
+}
+
+.checkedList .bullet:before {
+  color: #1F77CD;
+  display: block;
+  position: absolute;
+  top: .3em;
+  height: .3em;
+  width: .8em;
+  content: "";
+  left: .2em;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.see-plans-btn {
+  min-height: 48px;
+  font-weight: 400;
+  font-size: 17px;
+  background-image: linear-gradient(62deg, #1862AB 0%, #581499 100%);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 10px;
+  min-width: 110px;
+  color: white;
+  width: 100%;
+  max-width: 340px;
+}
+
+.see-plans-btn:hover {
+  background-image: linear-gradient(62deg, #1A71C8 0%, #741BC9 100%);
+  cursor: pointer;
+}
+
+.plan-block {
+  max-width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 30px 60px;
+}
+
+.plan-step {
+  text-align: left;
+}
+
+p, td {
+  font-size: 1.6em;
+  line-height: 2em;
+}
+
+tr.plan-row td {
+  border-bottom: 1px solid lightgrey;
+}
+
+td {
+  padding: 10px 10px;
+}
+
+tr.last-row td {
+  border-bottom: none;
+}
+
+.plan-table {
+  margin-top: 0px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr.top-row td {
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+}
+
+tr.second-row td {
+  padding-top: 30px;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+.plan-box:hover {
+  cursor: pointer;
+}
+
+.arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00A8E8;
+  margin: -3px auto 0;
+  width: 0;
+  height: 0;
+}
+
+.check {
+  vertical-align: middle;
+  width: 20px;
+  fill: #00A8E8;
+}
+
+.inactive-cross {
+  vertical-align: middle;
+  width: 20px;
+  fill: #a6a6a6;
+}
+
+.active-cross {
+  vertical-align: middle;
+  width: 20px;
+  fill: #00A8E8;
+}
+
+.grey-text {
+  color: #a6a6a6;
+}
+
+.active-text {
+  color: #00A8E8;
+}
+
+.active-plan {
+  padding-top: 45px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #00A8E8;
+  color: white;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.inactive-plan {
+  padding-top: 45px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #97DCF6;
+  color: white;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.active-plan:hover, .inactive-plan:hover {
+  cursor: pointer;
+}
+
+.active-arrow-down {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #00A8E8;
+}
+
+.inactive-arrow-down {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+
+.continue-btn {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: block;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+@media (max-width: 669px) {
+  .plan-table {
+    display: none;
+  }
+
+  .logo-topbar {
+    height: 25px;
+  }
+
+  .topbar {
+    margin-top: 10px;
+    height: 35px;
+    border-bottom: .5px solid lightgrey;
+    width: 100%;
+  }
+
+  .topbar-noborder {
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+  }
+
+  .signin {
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+
+  .card-pic {
+    display: none;
+  }
+}
+
+@media (min-width: 670px) {
+  .mobile-table {
+    display: none;
+  }
+}
+
+.mobile-plans {
+  margin-top: 20px;
+  background-color: white;
+  width: 100%;
+  top: 0px;
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+.mobile-left {
+  width: 47%;
+  float: left;
+}
+
+.mobile-right {
+  width: 47%;
+  float: right;
+}
+
+.m-basic-plan-active {
+  width: 100%;
+  background-color: #00A8E8;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center;
+  height: 60px;
+  padding-top: 17px;
+  margin-right: 5px;
+}
+
+.m-basic-plan-inactive {
+  width: 100%;
+  background-color: #97DCF6;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center;
+  height: 60px;
+  padding-top: 17px;
+  margin-right: 5px;
+}
+
+.m-arrow-down-active {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #00A8E8;
+  margin-top: -1px;
+}
+
+.m-arrow-down-inactive {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+
+
+
+.small-text {
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.m-row {
+  width: 100%;
+}
+
+.m-text-active {
+  font-size: 1.8em;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  color: #00A8E8;
+  height: 40px;
+  padding-top: 8px;
+
+
+}
+
+.right-border {
+  border-right: 1px solid lightgrey;
+}
+
+
+.mobile-left:hover, .mobile-right:hover {
+  cursor: pointer;
+}
+
+
+.reg-text {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 300px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+
+.text-left {
+  text-align: left;
+}
+
+
+.regform {
+  margin-top: 50px;
+  max-width: 440px;
+
+}
+
+.regform-text {
+  margin-top: 10px;
+text-align: left;
+font-size: 1.8em;
+line-height: 1.4em;
+}
+
+.create-account {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.email-input {
+  width: 100%;
+  font-size: 1.7em;
+  line-height: 2.1em;
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  transition: .2s;
+}
+
+
+.wide-button {
+  max-width: none;
+}
+
+
+.error-msg {
+  color: red;
+  margin-top: -15px;
+  font-size: 1.5em;
+  margin-bottom: 4px;
+}
+
+.spinner {
+  height: 20px;
+  overflow: none;
+  vertical-align: top;
+}
+
+
+.submitting-btn:hover {
+  cursor: pointer;
+}
+
+.payment-block {
+  margin-top: 50px;
+}
+
+
+.narrow-container {
+max-width: 205px;
+  margin: 0 auto;
+
+}
+
+
+.pay-text {
+  font-size: 1.5em;
+  margin-top: 25px;
+  line-height: 20px;
+}
+
+
+.payment-option {
+  text-align: left;
+  padding: 15px 20px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+
+.payment-option:hover {
+  cursor: pointer;
+}
+
+.card-pic {
+  height: 27px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+
+.payment-option-text {
+  padding-right: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.pay-arrow {
+  display: inline-block;
+  float: right;
+  font-size: 3em;
+  line-height: .7em;
+  color: lightgrey;
+}
+
+.gift-logo {
+  margin-top: 2px;
+}
+
+@media (max-width: 669px) {
+
+
+  .card-pic {
+    display: none;
+  }
+
+  .payment-option-text {
+    float: none;
+  }
+
+  .pay-arrow {
+    float: right;
+  }
+}

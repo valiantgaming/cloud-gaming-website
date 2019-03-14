@@ -1,0 +1,66 @@
+input {
+  font-size: 1.7em;
+  padding: 20px 10px;
+  border: 1px solid lightgrey;
+}
+
+.form-wrapper {
+  max-width: 30%;
+  min-width: 300px;
+  padding: 50px 30px 50px 30px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.form-group {
+  position: relative;
+}
+.form-group + .form-group {
+  margin-top: 30px;
+}
+
+.form-label {
+  position: absolute;
+  left: 0;
+  top: 11px;
+  color: #999;
+  z-index: 10;
+  transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+  transition: transform 150ms ease-out, font-size 150ms ease-out;
+  transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+}
+.form-label {
+  font-size: 1.7em;
+  padding-left: 15px;
+  padding-top: 4px;
+  z-index: 0;
+}
+.focused .form-label {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 1.21em;
+}
+
+.form-input {
+  position: relative;
+  padding: 24px 10px 10px 15px;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  transition: box-shadow 150ms ease-out;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.03), 0 1px 0 rgba(0,0,0,.05), 0 1px 3px rgba(0,0,0,.1);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.03), 0 1px 0 rgba(0,0,0,.05), 0 1px 3px rgba(0,0,0,.1);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0)
+}
+.form-input:focus {
+  -webkit-box-shadow: 0 0 0 1px rgba(1, 156, 255, 0.1), 0 1px 0 rgba(1,156,255,.2), 0 1px 3px rgba(1,156,255,.3);
+  box-shadow: 0 0 0 1px rgba(1, 156, 255, 0.1), 0 1px 0 rgba(1,156,255,.2), 0 1px 3px rgba(1,156,255,.3);
+}
+
+
+.form {
+  margin-bottom: 20px;
+}
